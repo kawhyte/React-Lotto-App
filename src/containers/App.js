@@ -3,6 +3,7 @@ import "./App.css";
 import CardList from "../components/CardList";
 import Searchbox from "../components/Searchbox";
 import Scroll from "../components/Scroll";
+import Header from "../components/Header";
 import { robots } from "../robots";
 import { lotto } from "../lotto";
 
@@ -46,7 +47,7 @@ onSearchChange =(event)=> {
     
    (
     <div className='tc'>
-      <h1 className='f1'>Lotto</h1>
+      <Header/> 
       <Searchbox searchChange ={this.onSearchChange}/>
       {/* <Scroll> */}
       <CardList lotto={filteredRobots} />
