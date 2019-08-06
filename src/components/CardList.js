@@ -10,6 +10,7 @@ const CardList = function({ robots, lotto }) {
         id={lotto[i].id}
         gameImageLink= {lotto[i].gameImageLink}
         ticketName={lotto[i].ticketName}
+        ticketCost={lotto[i].ticketCost}
         topPrize={lotto[i].topPrize}
         remainingPrizes={lotto[i].remainingPrizes}
         overallOddsOfWinning={lotto[i].overallOddsOfWinning}
