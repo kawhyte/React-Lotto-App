@@ -1,0 +1,8 @@
+.numberr {
+    display: inline-block; /* the default for span */
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color:lightblue; 
+    
+   
+  }
