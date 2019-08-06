@@ -10,6 +10,8 @@ const CardList = function({ robots, lotto }) {
         gameImageLink= {lotto[i].gameImageLink}
         ticketName={lotto[i].ticketName}
         topPrize={lotto[i].topPrize}
+        remainingPrizes={lotto[i].remainingPrizes}
+        overallOddsOfWinning={lotto[i].overallOddsOfWinning}
       />
     );
   });

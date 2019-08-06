@@ -104,7 +104,7 @@ export const lotto =[
     {
     _id: "5d142a69f3130bb9ad5f127d",
     ticketNumber: 1421,
-    ticketName: "MONOPOLYâ„˘ BOARDWALK BINGO",
+    ticketName: "MONOPOLY BOARDWALK BINGO",
     topPrize: 150000,
     topPrizeRemaining: "3 of 4",
     ticketCost: 3,
