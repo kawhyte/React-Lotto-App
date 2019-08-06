@@ -3,9 +3,6 @@ import Card from "./Card";
 
 const CardList = function({ robots, lotto }) {
 
-  if (true) {
-    throw new Error("Ohhhhh...noooo");
-  }
   const cardComponent = lotto.map((user, i) => {
     return (
       <Card
