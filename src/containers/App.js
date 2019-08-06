@@ -2,10 +2,11 @@ import React, { Component }from "react";
 import "./App.css";
 import CardList from "../components/CardList";
 import Searchbox from "../components/Searchbox";
-import Scroll from "../components/Scroll";
+//import Scroll from "../components/Scroll";
 import Header from "../components/Header";
-import { robots } from "../robots";
+//import { robots } from "../robots";
 import { lotto } from "../lotto";
+import ErrorBoundry from "../components/ErrorBoundry"
 
 
 class App extends Component {
@@ -50,8 +51,10 @@ onSearchChange =(event)=> {
       <Header/> 
       <Searchbox searchChange ={this.onSearchChange}/>
       {/* <Scroll> */}
+      <ErrorBoundry>
       <CardList lotto={filteredRobots} />
       {/* </Scroll> */}
+      </ErrorBoundry>
     </div>
   );
 
