@@ -19,18 +19,19 @@ constructor() {
   }
 }
 
-/* componentDidMount(){
+componentDidMount(){
+  //console.log(this.props.store.getState())
   //fetch('https://jsonplaceholder.typicode.com/users')
-  fetch('/src/lotto.js')
-  .then(response =>{
+  // fetch('/src/lotto.js')
+  // .then(response =>{
 
-    return response.json()
-  })
-   .then( users => {
-    this.setState({robots:users})
+  //   return response.json()
+  // })
+  //  .then( users => {
+  //   this.setState({robots:users})
     
-  }) 
-} */
+  // }) 
+} 
 
 onSearchChange =(event)=> {
   this.setState( {searchfeild: event.target.value});
