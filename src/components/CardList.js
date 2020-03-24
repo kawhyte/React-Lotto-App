@@ -1,10 +1,13 @@
 import React from "react";
 import Card from "./Card";
 
+
+
 const CardList = function({ robots, lotto }) {
 
   const cardComponent = lotto.map((user, i) => {
     return (
+
       <Card
         key={lotto[i]._id}
         id={lotto[i].id}
@@ -15,8 +18,10 @@ const CardList = function({ robots, lotto }) {
         remainingPrizes={lotto[i].remainingPrizes}
         overallOddsOfWinning={lotto[i].overallOddsOfWinning}
       />
+  
     );
-  });
+  }
+  );
 
   return <div>{cardComponent}</div>;
 };
